@@ -1,0 +1,33 @@
+.container {
+	width: 90%;
+	max-width: 800px;
+	border: solid 1px black;
+}
+
+.center {
+	margin: 0 auto;
+}
+
+.fullwidth {
+	width: 100%;
+}
+
+.center-text {
+	text-align: center;
+}
+
+.head-medium {
+	font-size: 20px;
+}
+
+.unstyled-list {
+	list-style: none;
+}
+
+.area-name {
+	margin: 3px;
+}
+
+a {
+	text-decoration: none;
+}

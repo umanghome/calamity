@@ -1,0 +1,82 @@
+.container {
+	width: 90%;
+	max-width: 800px;
+	border: solid 1px black;
+}
+
+.center {
+	margin: 0 auto;
+}
+
+.full-width {
+	width: 100%;
+}
+
+.center-text {
+	text-align: center;
+}
+
+.head-medium {
+	font-size: 20px;
+}
+
+.unstyled-list {
+	list-style: none;
+}
+
+.area-name {
+	margin: 3px;
+}
+
+.hidden {
+	display: none;
+}
+
+.text-black {
+	color: black;
+}
+
+.text-red {
+	color: red;
+}
+
+input[type="text"],
+textarea {
+    width: 99%;
+    height: 50px;
+    padding: 3px;
+}
+
+#update-textarea {
+	margin: 5px auto;
+}
+
+.pull-right {
+	float: right;
+	margin: 5px;
+}
+
+form {
+	margin-top: 15px;
+	margin-bottom: 5px;
+}
+
+.data-container {
+	border-bottom: solid 1px black;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: -20px;
+	margin-right: 20px;
+}
+
+#no-updates {
+	margin: 20px; 
+}
+
+.data-time {
+	font-size: 12px;
+}
+
+a {
+	text-decoration: none;
+}

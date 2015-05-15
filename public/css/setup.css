@@ -1,0 +1,29 @@
+.container {
+	width: 90%;
+	max-width: 800px;
+	border: solid 1px black;
+}
+
+.center {
+	margin: 0 auto;
+}
+
+.fullwidth {
+	width: 100%;
+}
+
+.center-text {
+	text-align: center;
+}
+
+.head-large {
+	font-size: 30px;
+}
+
+form {
+	margin: 10px;
+}
+
+td:nth-child(odd) {
+	width: 30%;
+}
