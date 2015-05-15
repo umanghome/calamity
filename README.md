@@ -1,2 +1,8 @@
 # calamity
 Calamity is a ready to deploy PHP application that lets you set up pages for viewing and posting updates based on various areas in case of a calamity.
+
+Calamity is a ready-to-deploy application that allows individuals to create pages categorized on ‘areas’ in case of a calamity. People can view, and post updates on the calamity, based on each individual area. The goal of the entire project was to develop a framework that individuals can put up on web servers, and give the public access to updates as quickly as possible. The framework has minimal data usage, so people with 2G internet connectivity do not have to wait long for the webpages to load.
+
+Installation:
+
+To install it, extract the contents of the zip on your web server file system. The ‘public’ folder must be the folder that is accessible by the public. ‘includes’ and ‘templates’ are not supposed to be accessible for the public. Some web hosts (or web servers) may require renaming ‘public’ to ‘public_html’. Refer to your web host’s documentation on what naming convention to use. A MySQL database is to be set up. The details of the MySQL database like the host, the username, and the password are to be replaced in includes/db.php file. All the directories need to be chmodded 711. All the PHP files need to be chmoded to 600. All the non-PHP files need to be chmodded to 644. After uploading all the files, the user will have to go to setup.php from their web browser. Instructions on the page are to be followed. After setup is done, the user will have to remove setup.php from their web server. The website is now ready for usage.
